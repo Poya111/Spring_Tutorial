@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <!-- AutoWore byName -->
+   <bean id = "triAngle" class = "com.Tutorial.Hamid.Triangle" autowire = "byName">   
+   
+   </bean>
+   <bean id = "pointA" class = "com.Tutorial.Hamid.Point" >
+     <property name="xPoint" value = "0"></property>
+     <property name="yPoint" value = "0"></property>
+   </bean>
+   
+   <bean id = "pointB" class = "com.Tutorial.Hamid.Point" >
+      <property name="xPoint" value = "-20"></property>
+      <property name="yPoint" value = "0"  ></property>
+   </bean>
+   
+   <bean id = "pointC" class = "com.Tutorial.Hamid.Point" >
+      <property name = "xPoint" value= "10"/>
+      <property name = "yPoint" value ="10"/>   
+   </bean>
+   
+
+</beans>
