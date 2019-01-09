@@ -30,7 +30,5 @@ public class Triangle {
 	public String toString() {
 		return "Triangle [pointA=" + pointA + ", pointB=" + pointB + ", pointC=" + pointC + "]";
 	}
-	public void display() {
-		System.out.println("DDDDD" + pointA.getxPoint()+pointA.getyPoint());
-	}
+	
 }
